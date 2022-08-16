@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Raleway:ital,wght@0,300;1,300&display=swap');
+body {
+    background-color: #2f2f29;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 120px;
+}
+
+ul.list {
+    position: absolute;
+    left: 450px;
+    top: 25px;
+}
+
+nav ul li {
+    font-size: small;
+    margin-left: 50px;
+}
+
+li.list-item {
+    display: inline;
+    justify-content: space-between;
+    position: relative;
+    font-family: "Red Rose";
+    color: #7c7c6c;
+    transition: transform .7s ease-in-out;
+}
+
+li.list-item:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.button-small {
+    padding: 15px;
+    background-color: #2f2f29;
+    border: 1px solid #ffff56;
+    color: #ffff56;
+    font-family: 'Raleway';
+    position: relative;
+    left: 1140px;
+    top: -48px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
+
+.button-small:hover {
+    transition: 0.4s;
+    color: #ffffff;
+    box-shadow: 0 2px 15px 2px #cdcd36;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 320%;
+    font-weight: 900%;
+    position: relative;
+    margin-left: 70px;
+    bottom: 50px;
+}
+
+p {
+    font-family: 'Red Rose';
+    color: #c6c6bc;
+    position: absolute;
+    left: 900px;
+    bottom: 380px;
+}
+
+.law-image {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: -60px;
+    margin-left: auto;
+}
+
+.arrows {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -64px;
+}
+
+.left {
+    background-color: #595952;
+    border: #595952;
+    width: 110px;
+    height: 100px;
+    color: #ffffff;
+}
+
+.left:hover {
+    background-color: #cdcd36;
+    color: #595952;
+    border: 10px solid #2f2f29;
+    transition: 0.3s;
+}
+
+.right {
+    background-color: #cdcd36;
+    width: 110px;
+    height: 100px;
+    border: #cdcd36;
+    color: white;
+}
+
+.right:hover {
+    background-color: #595952;
+    color: #cdcd36;
+    border: 10px solid #2f2f29;
+    transition: 0.3s;
+}
