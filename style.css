@@ -73,10 +73,8 @@ p {
     position: absolute;
     left: auto;
     right: auto;
-    /* margin: 0 auto;
-    padding: 0 auto; */
     right: 100px;
-    bottom: 380px;
+    bottom: 330px;
 }
 
 .law-image {
