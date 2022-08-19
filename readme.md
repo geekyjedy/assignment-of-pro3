@@ -17,7 +17,7 @@
 
 ![badge](https://img.shields.io/badge/-Live%20project%20link-green)
 
-- [Live here]()
+- [Live here](https://geekyjedy-pro3.netlify.app/ "Live on netlify")
 
 
 # About Me
