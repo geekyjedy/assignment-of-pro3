@@ -70,9 +70,9 @@ h1 {
 p {
     font-family: 'Red Rose';
     color: #c6c6bc;
-    position: absolute;
-    left: 900px;
-    bottom: 380px;
+    position: relative;
+    left: 800px;
+    bottom: 220px;
 }
 
 .law-image {
